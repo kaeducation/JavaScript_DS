@@ -1,5 +1,7 @@
 class DirectedGraph {
-	constructor() {}
+  constructor() {
+    this.adjacencyList = {};
+  }
 }
 
 module.exports = DirectedGraph;
